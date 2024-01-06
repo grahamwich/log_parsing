@@ -15,4 +15,4 @@ lint:
 	cpplint --filter=-runtime/references,-build/c++11,-build/include_subdir, --root=. *.cpp
 
 clean:
-	rm *.o ps7
+	rm *.o main
